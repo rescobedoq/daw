@@ -7,6 +7,7 @@
 - http://127.0.0.1:8080/
 - http://10.7.46.185:8080/
 
-## Eliminar contenedor e imagen
+## Detener contenedor, eliminar contenedor e imagen
+- docker stop c_daw_8080
 - docker rm c_daw_8080
 - docker rmi i_daw_8080
