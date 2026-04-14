@@ -5,5 +5,6 @@ RUN apk update \
 && rm -rf /var/cache/apk/*
 
 COPY ./index.html /var/www/localhost/htdocs
+COPY ./index2.html /var/www/localhost/htdocs
 
 CMD ["lighttpd","-D","-f","/etc/lighttpd/lighttpd.conf"]
