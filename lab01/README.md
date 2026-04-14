@@ -11,3 +11,6 @@
 - docker stop c_daw_8080
 - docker rm c_daw_8080
 - docker rmi i_daw_8080
+
+## Crear imagen con nombre diferente de Dockerfile
+- docker build -f Dockerfile2 . -t i_daw_8080
