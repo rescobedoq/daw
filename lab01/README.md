@@ -14,3 +14,6 @@
 
 ## Crear imagen con nombre diferente de Dockerfile
 - docker build -f Dockerfile2 . -t i_daw_8080
+
+## Detener contenedor, eliminar contenedor e imagen
+- docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
