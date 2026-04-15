@@ -3,17 +3,24 @@
 | :--- | :--- | :---: |
 | Richart Escobedo | Desarrollador web de todo el laboratorio. | 100% |
 
+| Entregables | URL |
+| :--- | :--- |
+| Repositorio | https://github.com/rescobedoq/daw.git |
+| Laboratorio | https://github.com/rescobedoq/daw/tree/main/lab01 |
+| Informe | https://github.com/rescobedoq/daw/blob/main/lab01/DAW_lab01.pdf |
+| Video | https://youtu.be/ZhJJFjfDNfg |
+
 # Descripción del Laboratorio
-- Utilizar Docker para desplegar dos sitios web: /developers y /webapp.
-- Utilice VirtualHost en el servidor web Apache HTTP Server dentro de un contenedor Docker basado en Ubuntu 24.04.
-- El sitio /developers mostrará index.html que es la presentación del grupo, webstandar.html describirá un estándar web de la W3C y contact.html mostrará un formulario para contactar al grupo.
-- El sitio /webapp mostrará la aplicación web desarrollada en el curso previo.
+- Utilizar Docker para desplegar dos sitios web: **/developers** y **/webapp**.
+- Configurar dos VirtualHosts en el servidor web Apache HTTP Server dentro de un contenedor Docker basado en Ubuntu 24.04.
+- El VirtualHost para el sitio **/developers** mostrará **index.html** que es la presentación del grupo, **webstandar.html** describirá un estándar web de la W3C y **contact.html** mostrará un formulario para contactar al grupo.
+- El VirtualHost para el sitio **/webapp** mostrará la aplicación web desarrollada en el curso previo.
 - Automatizar el despliegue de la tarea mediante un Dockerfile y utilizar las recomendaciones para crear la imagen y el contenedor.
 
 # Entregables
-- Informe de laboratorio en formato PDF a partir de una plantilla LaTeX (tarea de Classroom).
-- URL pública de video de prueba de funcionamiento máx. 2 min (Formulario Google - Classroom).
-- Repositorio de GitHub que contenga todo lo necesario para desplegar (clonación en clase).
+- Informe de laboratorio en formato PDF a partir de una plantilla LaTeX (enviar en la tarea de Classroom). [DAW_lab01.pdf]
+- URL pública de video de prueba de funcionamiento máx. 2 min. (Enviar sólo la URL en la tarea de Classroom). [DAW_lab01.mp4][^1]
+- Repositorio de GitHub que contenga todo lo necesario para desplegar (la clonación y la revisión serán en clase).
 
 ## Desplegar contenedor
 ```bash
@@ -68,7 +75,7 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 | Video | El video es preciso y muestra la ejecución del contenedor en la terminal y la navegación por la aplicación web. | 2 |
 | GitHub | El repositorio contiene todos los archivos necesarios para el despliegue y muestra un orden y un manejo acordes con los estándares de codificación. | 10 |
 | README | El laboratorio tiene un README.md  necesario para desplegar la aplicación web. | 3 |
-| Prueba[^1] | Se tomaron en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
+| Prueba[^2] | Se tomaron en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
 
-[^1]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo con responsabilidad y práctica de la ética profesional para no aplicar ninguna penalidad.
-
+[^1]: Un video debe cargarse en Youtube o Drive y sólo debe entregarse la URL pública, sin que se solicite login alguno. Es recomendable incluir la URL tanto en el README.md como en el informe.
+[^2]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo con responsabilidad y la práctica de la ética profesional, a fin de no aplicar ninguna penalidad.
