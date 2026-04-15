@@ -6,7 +6,12 @@
 - Utilice VirtualHost en el servidor web Apache HTTP Server dentro de un contenedor Docker basado en Ubuntu 24.04.
 - El sitio /developers mostrará index.html que es la presentación del grupo, webstandar.html describirá un estándar web de la W3C y contact.html mostrará un formulario para contactar al grupo.
 - El sitio /webapp mostrará la aplicación web desarrollada en el curso previo.
-- Automatizar el despliegue de la tarea en un Dockerfile y utilizar las recomendaciones para crear la imagen y el contenedor.
+- Automatizar el despliegue de la tarea mediante un Dockerfile y utilizar las recomendaciones para crear la imagen y el contenedor.
+
+# Entregables
+- Informe de laboratorio en formato PDF a partir de una plantilla LaTeX (tarea de Classroom).
+- URL pública de video de prueba de funcionamiento máx. 2 min (Formulario Google - Classroom).
+- Repositorio de GitHub que contenga todo lo necesario para desplegar (clonación en clase).
 
 ## Desplegar contenedor
 ```bash
