@@ -1,0 +1,136 @@
+<h1 id="laboratorio-01-docker">Laboratorio 01: Docker</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Autores</th>
+<th style="text-align: left;">Rol</th>
+<th style="text-align: center;">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Richart Escobedo</td>
+<td style="text-align: left;">Desarrollador web de todo el
+laboratorio.</td>
+<td style="text-align: center;">100%</td>
+</tr>
+</tbody>
+</table>
+<h1 id="descripción-del-laboratorio">Descripción del Laboratorio</h1>
+<ul>
+<li>Utilizar Docker para desplegar dos sitios web: /developers y
+/webapp.</li>
+<li>Utilice VirtualHost en el servidor web Apache HTTP Server dentro de
+un contenedor Docker basado en Ubuntu 24.04.</li>
+<li>El sitio /developers mostrará index.html que es la presentación del
+grupo, webstandar.html describirá un estándar web de la W3C y
+contact.html mostrará un formulario para contactar al grupo.</li>
+<li>El sitio /webapp mostrará la aplicación web desarrollada en el curso
+previo.</li>
+<li>Automatizar el despliegue de la tarea mediante un Dockerfile y
+utilizar las recomendaciones para crear la imagen y el contenedor.</li>
+</ul>
+<h1 id="entregables">Entregables</h1>
+<ul>
+<li>Informe de laboratorio en formato PDF a partir de una plantilla
+LaTeX (tarea de Classroom).</li>
+<li>URL pública de video de prueba de funcionamiento máx. 2 min
+(Formulario Google - Classroom).</li>
+<li>Repositorio de GitHub que contenga todo lo necesario para desplegar
+(clonación en clase).</li>
+</ul>
+<h2 id="desplegar-contenedor">Desplegar contenedor</h2>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build . <span class="at">-t</span> i_daw_8080</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-d</span> <span class="at">--name</span> c_daw_8080 <span class="at">-p</span> 8080:80 i_daw_8080</span></code></pre></div>
+<h2 id="acceso-a-los-sitios-web">Acceso a los sitios web</h2>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">http://127.0.0.1:8080/</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">http://127.0.0.1:8080/index2.html</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">http://10.7.46.185:8080/</span></span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">http://10.7.46.185:8080/index2.html</span></span></code></pre></div>
+<h2 id="detener-contenedor-eliminar-contenedor-e-imagen">Detener
+contenedor, eliminar contenedor e imagen</h2>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> stop c_daw_8080</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> rm c_daw_8080</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> rmi i_daw_8080</span></code></pre></div>
+<h2 id="crear-imagen-con-nombre-diferente-de-dockerfile">Crear imagen
+con nombre diferente de Dockerfile</h2>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> build <span class="at">-f</span> Dockerfile2 . <span class="at">-t</span> i_daw_8080</span></code></pre></div>
+<h2 id="detener-contenedor-eliminar-contenedor-e-imagen-1">Detener
+contenedor, eliminar contenedor e imagen</h2>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> rm <span class="at">-f</span> <span class="va">$(</span><span class="ex">docker</span> ps <span class="at">-aqf</span> <span class="st">&quot;name=^c_daw_8080$&quot;</span><span class="va">)</span> <span class="kw">&amp;&amp;</span> <span class="ex">docker</span> rmi i_daw_8080</span></code></pre></div>
+<h2 id="pantallas">Pantallas</h2>
+<p><img src="sitio1.png" alt="image" /> <img src="sitio2.png"
+alt="image" /></p>
+<h2 id="rúbrica-de-calificación">Rúbrica de calificación</h2>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 30%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">ítem</th>
+<th style="text-align: left;">Descripción</th>
+<th style="text-align: center;">Puntaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Informe</td>
+<td style="text-align: left;">El informe está completo, utiliza la
+plantilla y tiene un acabado impecable.</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Video</td>
+<td style="text-align: left;">El video es preciso y muestra la ejecución
+del contenedor en la terminal y la navegación por la aplicación
+web.</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">GitHub</td>
+<td style="text-align: left;">El repositorio contiene todos los archivos
+necesarios para el despliegue y muestra un orden y un manejo acordes con
+los estándares de codificación.</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td style="text-align: left;">README</td>
+<td style="text-align: left;">El laboratorio tiene un README.md
+necesario para desplegar la aplicación web.</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prueba<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+<td style="text-align: left;">Se tomaron en cuenta todas las
+consideraciones y recomendaciones, lo que evidencia un trabajo en
+equipo.</td>
+<td style="text-align: center;">-0</td>
+</tr>
+</tbody>
+</table>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>El docente debe comprobar el cumplimiento de todas las
+consideraciones y recomendaciones, evidenciando el trabajo en equipo con
+responsabilidad y práctica de la ética profesional para no aplicar
+ninguna penalidad.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
