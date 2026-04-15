@@ -8,7 +8,7 @@
 | Repositorio | https://github.com/rescobedoq/daw.git |
 | Laboratorio | https://github.com/rescobedoq/daw/tree/main/lab01 |
 | Informe | https://github.com/rescobedoq/daw/blob/main/lab01/DAW_lab01.pdf |
-| Video | https://youtu.be/ZhJJFjfDNfg |
+| Video | https://youtu.be/1SThw3yJy9g |
 
 # Descripción del Laboratorio
 - Utilizar Docker para desplegar dos sitios web: **/developers** y **/webapp**.
