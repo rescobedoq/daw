@@ -1,5 +1,7 @@
 # Laboratorio 01: Docker
-- Autor: Richart Escobedo
+| Autores | Rol | Porcentaje |
+| :--- | :--- | :---: |
+| Richart Escobedo | Desarrollador web de todo el laboratorio. | 100% |
 
 # Descripción del Laboratorio
 - Utilizar Docker para desplegar dos sitios web: /developers y /webapp.
