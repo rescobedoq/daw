@@ -58,3 +58,11 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ## Pantallas
 ![image](sitio1.png)
 ![image](sitio2.png)
+
+## Rúbrica de calificación
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| :--- | :---: | ---: |
+| Alineado Izq | Centrado | Alineado Der |
+| Fila 1, Celda 1 | Dato | Ejemplo |
+| Fila 2, Celda 1 | Dato | Ejemplo |
+
