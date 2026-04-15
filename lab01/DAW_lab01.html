@@ -16,28 +16,64 @@ laboratorio.</td>
 </tr>
 </tbody>
 </table>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Entregables</th>
+<th style="text-align: left;">URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Repositorio</td>
+<td style="text-align: left;">https://github.com/rescobedoq/daw.git</td>
+</tr>
+<tr>
+<td style="text-align: left;">Laboratorio</td>
+<td
+style="text-align: left;">https://github.com/rescobedoq/daw/tree/main/lab01</td>
+</tr>
+<tr>
+<td style="text-align: left;">Informe</td>
+<td
+style="text-align: left;">https://github.com/rescobedoq/daw/blob/main/lab01/DAW_lab01.pdf</td>
+</tr>
+<tr>
+<td style="text-align: left;">Video</td>
+<td style="text-align: left;">https://youtu.be/1SThw3yJy9g</td>
+</tr>
+</tbody>
+</table>
 <h1 id="descripción-del-laboratorio">Descripción del Laboratorio</h1>
 <ul>
-<li>Utilizar Docker para desplegar dos sitios web: /developers y
-/webapp.</li>
-<li>Utilice VirtualHost en el servidor web Apache HTTP Server dentro de
-un contenedor Docker basado en Ubuntu 24.04.</li>
-<li>El sitio /developers mostrará index.html que es la presentación del
-grupo, webstandar.html describirá un estándar web de la W3C y
-contact.html mostrará un formulario para contactar al grupo.</li>
-<li>El sitio /webapp mostrará la aplicación web desarrollada en el curso
-previo.</li>
+<li>Utilizar Docker para desplegar dos sitios web:
+<strong>/developers</strong> y <strong>/webapp</strong>.</li>
+<li>Configurar dos VirtualHosts en el servidor web Apache HTTP Server
+dentro de un contenedor Docker basado en Ubuntu 24.04.</li>
+<li>El VirtualHost para el sitio <strong>/developers</strong> mostrará
+<strong>index.html</strong> que es la presentación del grupo,
+<strong>webstandar.html</strong> describirá un estándar web de la W3C y
+<strong>contact.html</strong> mostrará un formulario para contactar al
+grupo.</li>
+<li>El VirtualHost para el sitio <strong>/webapp</strong> mostrará la
+aplicación web desarrollada en el curso previo.</li>
 <li>Automatizar el despliegue de la tarea mediante un Dockerfile y
 utilizar las recomendaciones para crear la imagen y el contenedor.</li>
 </ul>
 <h1 id="entregables">Entregables</h1>
 <ul>
 <li>Informe de laboratorio en formato PDF a partir de una plantilla
-LaTeX (tarea de Classroom).</li>
-<li>URL pública de video de prueba de funcionamiento máx. 2 min
-(Formulario Google - Classroom).</li>
+LaTeX (enviar en la tarea de Classroom). [DAW_lab01.pdf]</li>
+<li>URL pública de video de prueba de funcionamiento máx. 2 min. (Enviar
+sólo la URL en la tarea de Classroom). [DAW_lab01.mp4]<a href="#fn1"
+class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></li>
 <li>Repositorio de GitHub que contenga todo lo necesario para desplegar
-(clonación en clase).</li>
+(la clonación y la revisión serán en clase).</li>
 </ul>
 <h2 id="desplegar-contenedor">Desplegar contenedor</h2>
 <div class="sourceCode" id="cb1"><pre
@@ -114,8 +150,8 @@ necesario para desplegar la aplicación web.</td>
 <td style="text-align: center;">3</td>
 </tr>
 <tr>
-<td style="text-align: left;">Prueba<a href="#fn1" class="footnote-ref"
-id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+<td style="text-align: left;">Prueba<a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a></td>
 <td style="text-align: left;">Se tomaron en cuenta todas las
 consideraciones y recomendaciones, lo que evidencia un trabajo en
 equipo.</td>
@@ -127,10 +163,14 @@ equipo.</td>
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1"><p>El docente debe comprobar el cumplimiento de todas las
+<li id="fn1"><p>Un video debe cargarse en Youtube o Drive y sólo debe
+entregarse la URL pública, sin que se solicite login alguno. Es
+recomendable incluir la URL tanto en el README.md como en el informe.<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>El docente debe comprobar el cumplimiento de todas las
 consideraciones y recomendaciones, evidenciando el trabajo en equipo con
-responsabilidad y práctica de la ética profesional para no aplicar
-ninguna penalidad.<a href="#fnref1" class="footnote-back"
+responsabilidad y la práctica de la ética profesional, a fin de no
+aplicar ninguna penalidad.<a href="#fnref2" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
