@@ -60,9 +60,11 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ![image](sitio2.png)
 
 ## Rúbrica de calificación
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+| ítem | Descripción | Puntaje |
 | :--- | :---: | ---: |
-| Alineado Izq | Centrado | Alineado Der |
-| Fila 1, Celda 1 | Dato | Ejemplo |
-| Fila 2, Celda 1 | Dato | Ejemplo |
+| Informe | El informe está completo, utiliza la plantilla y tiene un acabado impecable. | 5 |
+| Video | El video es preciso y muestra la ejecución del contenedor en la terminal y la navegación por la aplicación web. | 2 |
+| GitHub | El repositorio contiene todos los archivos necesarios para el despliegue y muestra un orden y estándares de codificación. | 10 |
+| README | El laboratorio tiene un README.md  necesario para desplegar la aplicación web. | 3 |
+| Prueba | Se tomaron en cuenta todas las consideraciones y recomendaciones, y se muestra un trabajo en equipo | -0 |
 
