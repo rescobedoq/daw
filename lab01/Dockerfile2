@@ -1,14 +1,21 @@
+# Basado en la distribución Ubuntu 24.04
 FROM ubuntu:24.04
 
+# Asegurar instalación desatendida
 ENV DEBIAN_FRONTEND=noninteractive
 
+# Actualización, instalación y limpieza del servidor web Apache HTTP server 2.x
 RUN apt-get update
 RUN apt-get install apache2 -y
 RUN apt-get clean
 
+ Copia de archivos al DocumentRoot
+# Nota: No se está utilizando VirtualHost o Alias, sólo se está copiando directamente al DocumentRoot del servidor web
 COPY ./index.html /var/www/html/
 COPY ./index2.html /var/www/html/
 
+# Exponer el puerto 80
 EXPOSE 80
 
+# Poner en segundo plano la ejecución del servidor web
 CMD ["apache2ctl", "-D", "FOREGROUND"]
