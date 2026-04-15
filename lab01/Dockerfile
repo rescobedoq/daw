@@ -7,7 +7,7 @@ RUN apk update \
 && rm -rf /var/cache/apk/*
 
 # Copia de archivos al DocumentRoot
-# Nota: No se está utilizando VirtualHost, sólo se está copiando al DocumentRoot del servidor web
+# Nota: No se está utilizando VirtualHost o Alias, sólo se está copiando directamente al DocumentRoot del servidor web
 COPY ./index.html /var/www/localhost/htdocs
 COPY ./index2.html /var/www/localhost/htdocs
 
