@@ -68,5 +68,5 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 | README | El laboratorio tiene un README.md  necesario para desplegar la aplicación web. | 3 |
 | Prueba[^1] | Se tomaron en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
 
-[^1]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo para no aplicar ninguna penalidad.
+[^1]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo con responsabilidad y práctica de la ética profesional para no aplicar ninguna penalidad.
 
