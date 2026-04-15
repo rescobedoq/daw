@@ -49,3 +49,7 @@ docker build -f Dockerfile2 . -t i_daw_8080
 ```bash
 docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ```
+
+## Pantallas
+![image](sitio1.png)
+![image](sitio2.png)
