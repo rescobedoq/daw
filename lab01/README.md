@@ -70,14 +70,16 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ![image](sitio1.png)
 ![image](sitio2.png)
 
-## Rúbrica de calificación
+## Rúbrica de calificación[^2]
 | ítem | Descripción | Puntaje |
 | :--- | :--- | :---: |
-| Informe | El informe está completo, utiliza la plantilla y tiene un acabado impecable. | 5 |
-| Video | El video es preciso y muestra la ejecución del contenedor en la terminal y la navegación por la aplicación web. | 2 |
-| GitHub | El repositorio contiene todos los archivos necesarios para el despliegue y muestra un orden y un manejo acordes con los estándares de codificación. | 10 |
-| README | El laboratorio tiene un README.md  necesario para desplegar la aplicación web. | 3 |
-| Prueba[^2] | Se tomaron en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
+| **Informe** | El informe está completo, utiliza la plantilla y tiene un acabado impecable. | 5 |
+| **Video** | El video es preciso y muestra la ejecución del contenedor en la terminal y la navegación por la aplicación web. | 2 |
+| **GitHub** | El repositorio contiene todos los archivos necesarios para el despliegue y muestra un orden y un manejo acordes con los estándares de codificación. | 10 |
+| **Informe** | El laboratorio tiene un README.md  necesario para desplegar la aplicación web. | 3 |
+| **Prueba[^3]** | Se tomaron en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
+|  | **Total** | **20** |
 
-[^1]: Un video debe cargarse en Youtube o Drive y sólo debe entregarse la URL pública, sin que se solicite login alguno. Es recomendable incluir la URL tanto en el README.md como en el informe.
-[^2]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo con responsabilidad y la práctica de la ética profesional, a fin de no aplicar ninguna penalidad.
+[^1]: Si el docente solicita un video, debe cargarse en Youtube o Drive y sólo debe entregarse la URL pública, sin que se solicite login alguno. Es recomendable incluir la URL tanto en el README.md como en el informe.
+[^1]: La autocalificación es obligatoria.
+[^3]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo con responsabilidad y la práctica de la ética profesional, a fin de no aplicar ninguna penalidad.
