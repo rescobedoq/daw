@@ -1,7 +1,9 @@
 # Laboratorio 01: Docker
 | Autores | Rol | Porcentaje |
 | :--- | :--- | :---: |
-| Richart Escobedo | Desarrollador web de todo el laboratorio. | 100% |
+| Richart Escobedo | Creación del archivo Dockerfile | 100% |
+| Richart Escobedo | Elaboración del informe | 100% |
+| | **Total** | **100%** |
 
 | Entregables | URL |
 | :--- | :--- |
