@@ -24,51 +24,63 @@
 - URL pública de video de prueba de funcionamiento máx. 2 min. (Enviar sólo la URL en la tarea de Classroom). [DAW_lab01.mp4][^1]
 - Repositorio de GitHub que contenga todo lo necesario para desplegar (la clonación y la revisión serán en clase).
 
+# Puerto utilizado
+- 8106 (Cuva Guevara Barbara Amira)
+
 ## Desplegar contenedor
 ```bash
-docker build . -t i_daw_8080
+docker build . -t i_daw_8106
 ```
 ```bash
-docker run -d --name c_daw_8080 -p 8080:80 i_daw_8080
+docker run -d --name c_daw_8106 -p 8080:80 i_daw_8106
 ```
 ## Acceso a los sitios web 
 ```bash
-http://127.0.0.1:8080/
+http://127.0.0.1:8106/
 ```
 ```bash
-http://127.0.0.1:8080/index2.html
+http://127.0.0.1:8106/index2.html
 ```
 ```bash
-http://10.7.46.185:8080/
+http://10.7.46.185:8106/
 ```
 ```bash
-http://10.7.46.185:8080/index2.html
+http://10.7.46.185:8106/index2.html
 ```
 
 ## Detener contenedor, eliminar contenedor e imagen
 ```bash
-docker stop c_daw_8080
+docker stop c_daw_8106
 ```
 ```bash
-docker rm c_daw_8080
+docker rm c_daw_8106
 ```
 ```bash
-docker rmi i_daw_8080
+docker rmi i_daw_8106
 ```
 
 ## Crear imagen con nombre diferente de Dockerfile
 ```bash
-docker build -f Dockerfile2 . -t i_daw_8080
+docker build -f Dockerfile2 . -t i_daw_8106
 ```
 
 ## Detener contenedor, eliminar contenedor e imagen
 ```bash
-docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
+docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8106
 ```
 
 ## Pantallas
-![image](sitio1.png)
-![image](sitio2.png)
+Developers
+![image](Nosotras.png)
+![image](Estandar.png)
+![image](Contactanos.png)
+
+WebApp
+![image](Proyecto1.png)
+![image](Proyecto2.png)
+![image](Proyecto3.png)
+![image](Proyecto4.png)
+![image](Proyecto5.png)
 
 ## Rúbrica de calificación[^2]
 | ítem | Descripción | Puntaje |
