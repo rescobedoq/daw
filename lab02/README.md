@@ -115,3 +115,12 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 [^1]: Si el docente solicita un video, debe cargarse en Youtube o Drive y sólo debe entregarse la URL pública, sin que se solicite login alguno. Es recomendable incluir la URL tanto en el README.md como en el informe y enviarlo a Classroom.
 [^2]: La autocalificación es obligatoria.
 [^3]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo con responsabilidad y la práctica de la ética profesional, a fin de no aplicar ninguna penalidad.
+
+## Referencias
+- https://www.w3schools.com/js/
+- https://www.w3schools.com/webdev/wd_javascript.asp
+- https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript
+- https://www.w3.org/wiki/JavaScript_best_practices
+- https://code.jquery.com/jquery-4.0.0.js
+- https://code.jquery.com/jquery-4.0.0.slim.min.js
+- https://www.visibilidadon.com/ofuscar-javascript-que-usos-tiene/
