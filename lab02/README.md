@@ -26,6 +26,7 @@
 
 ## Ejercicio 01
 - Utilizar la siguiente plantilla, que no tiene etiquetas, dentro del documento html (en el **body** solo deben generarse elementos mediante JavaScript).
+- Programar en JavaScript en una página web html básica.
 ```bash
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +45,12 @@
 ```bash
 http://127.0.0.1:8080/lab02/ejercicio01.html
 ```
+- La generación del teclado debe ser aleatoria.
 ![image](ejercicio01.png)
+
+## Ejercicio 02
+- Cree una calculadora básica, como la de los sistemas operativos, que utilice la función eval().
+- Guarde todas las operaciones en una pila. Mostrar la pila al pie de la página web.
 
 ## Desplegar contenedor
 ```bash
@@ -78,12 +84,6 @@ docker build -f Dockerfile2 . -t i_daw_8080
 ```bash
 docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ```
-
-## Pantallas
-```bash
-http://127.0.0.1:8080/lab02
-```
-![image](sitio1.png)
 
 ## Rúbrica de calificación[^2]
 | ítem | Descripción | Puntaje |
