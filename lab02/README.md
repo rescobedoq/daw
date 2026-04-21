@@ -13,6 +13,7 @@
 | Video | https://youtu.be/1SThw3yJy9 |
 
 # Descripción del Laboratorio
+- Implementar ejercicios utilizando JavaScript nativo.
 - Utilizar Docker para desplegar dos sitios web: **'/lab02'**.
 - Automatizar el despliegue de la tarea mediante un Dockerfile y aplicar todas las recomendaciones para crear la imagen y el contenedor.
 
@@ -20,6 +21,30 @@
 - Informe de laboratorio en formato PDF a partir de una plantilla LaTeX (enviar en la tarea de Classroom). [DAW_lab02.pdf]
 - URL pública de video de prueba de funcionamiento máx. 2 min. (Enviar sólo la URL en la tarea de Classroom). [DAW_lab02.mp4][^1]
 - Repositorio de GitHub que contenga todo lo necesario para desplegar (la clonación y la revisión se harán en clase).
+
+# Ejercicios
+
+## Ejercicio 01
+- Utilizar la siguiente plantilla, que no tiene etiquetas, dentro del documento html (en el **body** solo deben generarse elementos mediante JavaScript).
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- no html, generate it with javascript -->
+    <script src="ejercicio01.js"></script>
+</body>
+</html>
+```
+- Debe generar el siguiente teclado.
+```bash
+http://127.0.0.1:8080/lab02/ejercicio01.html
+```
+![image](ejercicio01.png)
 
 ## Desplegar contenedor
 ```bash
