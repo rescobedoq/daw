@@ -19,7 +19,7 @@
 > [!NOTE]
 > Utilizar la imagen de Docker y el servidor web de su preferencia.
 ```diff
-+ Recomendación ligera: Alpine, Alpaquita, Nginx, Lighttpd.
++ Recomendación ligera: apline, nginx, lighttpd.
 ```
 
 # Entregables
