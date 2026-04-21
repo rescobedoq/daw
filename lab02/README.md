@@ -23,9 +23,7 @@
 - Repositorio de GitHub que contenga todo lo necesario para desplegar (la clonación y la revisión se harán en clase).
 
 # Ejercicios
-
-## Ejercicio 01
-- Utilizar la siguiente plantilla, que no tiene etiquetas, dentro del documento html (en el **body** solo deben generarse elementos mediante JavaScript).
+- Para los ejercicios, utilizar la siguiente plantilla, que no tiene etiquetas, dentro del documento html (en el **body** solo deben generarse elementos mediante JavaScript).
 - Programar en JavaScript en una página web html básica.
 ```bash
 <!DOCTYPE html>
@@ -37,11 +35,13 @@
 </head>
 <body>
     <!-- no html, generate it with javascript -->
-    <script src="ejercicio01.js"></script>
+    <script src="ejercicio0N.js"></script>
 </body>
 </html>
 ```
-- Debe generar el siguiente teclado.
+
+## Ejercicio 01
+- Generar el siguiente teclado.
 ```bash
 http://127.0.0.1:8080/lab02/ejercicio01.html
 ```
@@ -51,6 +51,11 @@ http://127.0.0.1:8080/lab02/ejercicio01.html
 ## Ejercicio 02
 - Cree una calculadora básica, como la de los sistemas operativos, que utilice la función eval().
 - Guarde todas las operaciones en una pila. Mostrar la pila al pie de la página web.
+```bash
+http://127.0.0.1:8080/lab02/ejercicio02.html
+```
+![image](ejercicio02.png)
+![image](pila.png)
 
 ## Desplegar contenedor
 ```bash
