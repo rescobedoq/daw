@@ -60,7 +60,7 @@ http://127.0.0.1:8080/lab02/ejercicio02.html
 ## Ejercicio 03
 - Cree una versión del juego 'el ahorcado' que grafique con canvas, paso a paso, desde el evento onclick() en los botones.
 ```bash
-http://127.0.0.1:8080/lab02/ejercicio02.html
+http://127.0.0.1:8080/lab02/ejercicio03.html
 ```
 - El juego incluye un botón "Iniciar Juego" que selecciona aleatoriamente una palabra arequipeña (como Pampacolca, Arequipa, Misti, Chachani, etc.). Al hacer clic en las letras, el canvas dibuja progresivamente las 10 partes del ahorcado: base, poste vertical, poste horizontal, cuerda, cabeza, cuerpo, brazos y piernas. El juego detecta automáticamente cuando ganas o pierdes.
 ![image](ejercicio03.png)
@@ -72,7 +72,7 @@ docker build . -t i_daw_8080
 ```bash
 docker run -d --name c_daw_8080 -p 8080:80 i_daw_8080
 ```
-## Acceso al laboratorio
+## Acceso al índice del laboratorio
 ```bash
 http://127.0.0.1:8080/lab02
 ```
@@ -101,10 +101,12 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ## Rúbrica de calificación[^2]
 | ítem | Descripción | Puntaje |
 | :--- | :--- | :---: |
-| **Informe** | El informe está completo, utiliza la plantilla y tiene un acabado impecable. (Debe estar en el repositorio Github y Classroom) | 5 |
-| **Video** | El video es preciso y muestra la ejecución del contenedor en la terminal y la navegación por la aplicación web. (Video en Youtube. URL en Informe, Classroom y README.md) | 2 |
-| **Github** | El repositorio contiene todos los archivos necesarios para el despliegue y muestra un orden y un manejo acordes con los estándares de codificación. | 10 |
-| **README.md** | El laboratorio cuenta con un README.md necesario para desplegar la aplicación web. | 3 |
+| **Informe** | El informe está completo, utiliza la plantilla y tiene un acabado impecable. (Debe estar en el repositorio Github y Classroom) | 4 |
+| **Video** | El video es preciso y muestra la ejecución del contenedor en la terminal y la navegación por los ejercicios. (Video en Youtube. URL en Informe, Classroom y README.md) | 2 |
+| **Ejercicio 01** | El ejercicio está completo y contiene todas las recomendaciones. | 4 |
+| **Ejercicio 02** | El ejercicio está completo y contiene todas las recomendaciones. | 4 |
+| **Ejercicio 03** | El ejercicio está completo y contiene todas las recomendaciones. | 4 |
+| **README.md** | El laboratorio cuenta con un README.md necesario para desplegar la aplicación web. | 2 |
 | **Prueba[^3]** | Se toman en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
 |  | **Total** | **20** |
 
