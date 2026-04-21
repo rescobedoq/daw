@@ -13,10 +13,12 @@
 | Video | https://youtu.be/1SThw3yJy9 |
 
 # Descripción del Laboratorio
-- Implementar una agenda utilizando nodeJS.
-- Las actividades deben guardarse como archivos MarkDown.
-- Utilizar Docker para desplegar dos sitios web: **'/lab03'**.
+- Implementar una agenda utilizando Node.js + Express.
+- Las actividades deben guardarse como archivos de Markdown.
+- Utilizar Docker para desplegar el sitio web: **'/lab03'**.
 - Automatizar el despliegue de la tarea mediante un Dockerfile y aplicar todas las recomendaciones para crear la imagen y el contenedor.
+- > [!NOTE]
+- > Utilizar la imagen de Docker y el servidor web de su preferencia (recomendación: Alpine, Alpaquita, Nginx, Lighttpd).
 
 # Entregables
 - Informe de laboratorio en formato PDF a partir de una plantilla LaTeX (enviar en la tarea de Classroom). [DAW_lab03.pdf]
