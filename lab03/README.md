@@ -13,11 +13,15 @@
 | Video | https://youtu.be/1SThw3yJy9 |
 
 # Descripción del Laboratorio
-- Implementar una agenda utilizando Node.js + Express.
+- Implementar una agenda con Node.js y Express.
 - Las actividades deben guardarse como archivos de Markdown.
 - Utilizar Docker para desplegar el sitio web: **'/lab03'**.
 - Automatizar el despliegue de la tarea mediante un Dockerfile y aplicar todas las recomendaciones para crear la imagen y el contenedor.
 > [!NOTE]
+> ```diff
++ This line is green
+- This line is red
+```
 > Utilizar la imagen de Docker y el servidor web de su preferencia (recomendación: Alpine, Alpaquita, Nginx, Lighttpd).
 
 # Entregables
