@@ -76,11 +76,11 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ## Pantallas
 ```bash
 http://127.0.0.1:8080/developers
-``
+```
 ![image](sitio1.png)
 ```bash
 http://127.0.0.1:8080/webapp
-``
+```
 ![image](sitio2.png)
 
 ## Rúbrica de calificación[^2]
