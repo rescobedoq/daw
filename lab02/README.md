@@ -57,6 +57,14 @@ http://127.0.0.1:8080/lab02/ejercicio02.html
 ![image](ejercicio02.png)
 ![image](pila.png)
 
+## Ejercicio 03
+- Cree una versión del juego 'el ahorcado' que grafique con canvas, paso a paso, desde el evento onclick() en los botones.
+```bash
+http://127.0.0.1:8080/lab02/ejercicio02.html
+```
+- El juego incluye un botón "Iniciar Juego" que selecciona aleatoriamente una palabra arequipeña (como Pampacolca, Arequipa, Misti, Chachani, etc.). Al hacer clic en las letras, el canvas dibuja progresivamente las 10 partes del ahorcado: base, poste vertical, poste horizontal, cuerda, cabeza, cuerpo, brazos y piernas. El juego detecta automáticamente cuando ganas o pierdes.
+![image](ejercicio03.png)
+
 ## Desplegar contenedor
 ```bash
 docker build . -t i_daw_8080
