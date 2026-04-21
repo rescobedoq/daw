@@ -16,6 +16,11 @@
 - Implementar ejercicios utilizando JavaScript nativo.
 - Utilizar Docker para desplegar dos sitios web: **'/lab02'**.
 - Automatizar el despliegue de la tarea mediante un Dockerfile y aplicar todas las recomendaciones para crear la imagen y el contenedor.
+> [!NOTE]
+> Utilizar la imagen de Docker y el servidor web de su preferencia.
+```diff
++ Recomendación ligera: Alpine, Alpaquita, Nginx, Lighttpd.
+```
 
 # Entregables
 - Informe de laboratorio en formato PDF a partir de una plantilla LaTeX (enviar en la tarea de Classroom). [DAW_lab02.pdf]
