@@ -18,11 +18,11 @@
 - Utilizar Docker para desplegar el sitio web: **'/lab03'**.
 - Automatizar el despliegue de la tarea mediante un Dockerfile y aplicar todas las recomendaciones para crear la imagen y el contenedor.
 > [!NOTE]
-> ```diff
+> Utilizar la imagen de Docker y el servidor web de su preferencia (recomendación: Alpine, Alpaquita, Nginx, Lighttpd).
+```diff
 + This line is green
 - This line is red
 ```
-> Utilizar la imagen de Docker y el servidor web de su preferencia (recomendación: Alpine, Alpaquita, Nginx, Lighttpd).
 
 # Entregables
 - Informe de laboratorio en formato PDF a partir de una plantilla LaTeX (enviar en la tarea de Classroom). [DAW_lab03.pdf]
