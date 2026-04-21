@@ -80,11 +80,12 @@ docker rm -f $(docker ps -aqf "name=^c_daw_8080$") && docker rmi i_daw_8080
 ## Rúbrica de calificación[^2]
 | ítem | Descripción | Puntaje |
 | :--- | :--- | :---: |
-| **Informe** | El informe está completo, utiliza la plantilla y tiene un acabado impecable. (Debe estar en el repositorio Github y Classroom) | 4 |
+| **Informe** | El informe está completo, utiliza la plantilla y tiene un acabado impecable. (Debe estar en el repositorio Github y Classroom) | 3 |
 | **Video** | El video es preciso y muestra la ejecución del contenedor en la terminal y la navegación por los ejercicios. (Video en Youtube. URL en Informe, Classroom y README.md) | 2 |
-| **Ejercicio 01** | El ejercicio está completo y contiene todas las recomendaciones. | 4 |
-| **Ejercicio 02** | El ejercicio está completo y contiene todas las recomendaciones. | 4 |
-| **Ejercicio 03** | El ejercicio está completo y contiene todas las recomendaciones. | 4 |
+| **Crea evento** | El ejercicio está completo y contiene todas las recomendaciones. | 4 |
+| **Lista eventos** | El ejercicio está completo y contiene todas las recomendaciones. | 3 |
+| **Edita evento** | El ejercicio está completo y contiene todas las recomendaciones. | 3 |
+| **Elimina evento** | El ejercicio está completo y contiene todas las recomendaciones. | 3 |
 | **README.md** | El laboratorio cuenta con un README.md necesario para desplegar la aplicación web. | 2 |
 | **Prueba[^3]** | Se toman en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
 |  | **Total** | **20** |
