@@ -23,7 +23,21 @@
 - URL pública de video de prueba de funcionamiento máx. 2 min. (Enviar sólo la URL en la tarea de Classroom). [DAW_lab03.mp4][^1]
 - Repositorio de GitHub que contenga todo lo necesario para desplegar (la clonación y la revisión se harán en clase).
 
-
+# Descripción del laboratorio
+- Crea una aplicación en Node.js con Express para administrar una agenda personal.
+- Home (**"/"**) : Página Principal.
+- Trabaje todo en una única interfaz.
+- Ejemplo de estructura de la agenda al explorar **"Eventos"**.
+```bash
+agenda[DIR]
+|
+|---- 2023-05-15 [DIR]
+      |---- 10-00.txt [FILE]
+      |---- 13-30.txt [FILE]
+|---- 2023-05-20 [DIR]
+      |---- 09-10.txt [FILE]
+      |---- 20-40.txt [FILE]
+```
 
 ## Desplegar contenedor
 ```bash
