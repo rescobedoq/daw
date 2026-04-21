@@ -39,6 +39,11 @@ agenda[DIR]
       |---- 20-40.txt [FILE]
 ```
 
+```bash
+http://127.0.0.1:8080/lab03
+```
+![image](agenda.png)
+
 ## Desplegar contenedor
 ```bash
 docker build . -t i_daw_8080
