@@ -96,3 +96,11 @@ http://127.0.0.1:8080/webapp
 [^1]: Si el docente solicita un video, debe cargarse en Youtube o Drive y sólo debe entregarse la URL pública, sin que se solicite login alguno. Es recomendable incluir la URL tanto en el README.md como en el informe y enviarlo a Classroom.
 [^2]: La autocalificación es obligatoria.
 [^3]: El docente debe comprobar el cumplimiento de todas las consideraciones y recomendaciones, evidenciando el trabajo en equipo con responsabilidad y la práctica de la ética profesional, a fin de no aplicar ninguna penalidad.
+
+## Referencias
+- https://www.w3.org/Style/Examples/011/firstcss.es.html
+- https://www.w3schools.com/html/
+- https://www.w3schools.com/css/
+- https://www.w3schools.com/htmlcss/
+- https://validator.w3.org/
+- https://jigsaw.w3.org/css-validator/
