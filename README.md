@@ -5,8 +5,8 @@
 | Fase | Laboratorio | Tema |
 | :--- | :--- | :--- |
 | Fase I | [lab01](https://github.com/rescobedoq/daw/tree/main/lab01) | Docker |
-| | lab02 | [JavaScript(Frontend)](https://github.com/rescobedoq/daw/tree/main/lab02) |
-| | lab03 | [JavaScript(Backend)](https://github.com/rescobedoq/daw/tree/main/lab03) |
+| | [lab02](https://github.com/rescobedoq/daw/tree/main/lab02) | JavaScript(Frontend) |
+| | [lab03]((https://github.com/rescobedoq/daw/tree/main/lab03)) | JavaScript(Backend) |
 | | lab04 | Python |
 | Fase II | lab05 | Base de datos |
 | | lab06 | Django admin |
