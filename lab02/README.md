@@ -25,6 +25,8 @@
 # Ejercicios
 - Para los ejercicios, utilizar la siguiente plantilla, que no tiene etiquetas, dentro del documento html (en el **body** solo deben generarse elementos mediante JavaScript).
 - Programar en JavaScript en una página web html básica.
+- Utilice una herramienta para ofuzcar código JavaScript.
+- Ponga a disposición una versión de JavaScript en modo de desarrollo y otra en modo de producción (ofuscada) para todos los ejercicios de la tarea.
 ```bash
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +37,7 @@
 </head>
 <body>
     <!-- no html, generate it with javascript -->
-    <script src="ejercicio0N.js"></script>
+    <script src="ejercicio01.min.js"></script>
 </body>
 </html>
 ```
