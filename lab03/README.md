@@ -36,13 +36,15 @@
 ```bash
 agenda[DIR]
 |
-|---- 2023-05-15 [DIR]
-      |---- 10-00.txt [FILE]
-      |---- 13-30.txt [FILE]
-|---- 2023-05-20 [DIR]
-      |---- 09-10.txt [FILE]
-      |---- 20-40.txt [FILE]
+|---- 2023.05.15 [DIR]
+      |---- 10.00.md [FILE]
+      |---- 13.30.md [FILE]
+|---- 2023.05.20 [DIR]
+      |---- 09.10.md [FILE]
+      |---- 20.40.md [FILE]
 ```
+
+![image](estructura.png)
 
 ```bash
 http://127.0.0.1:8080/lab03
