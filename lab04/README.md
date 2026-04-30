@@ -95,10 +95,16 @@
 ## Rúbrica de calificación[^1]
 | ítem | Descripción | Puntaje |
 | :--- | :--- | :---: |
-| **Entorno Virtual** | Uso correcto del entorno virtual en proyectos de Python. (requirements.txt) | 2 |
-| **Programación** | Uso adecuado de los estándares de codificación.| 2 |
-| **Video** | Demostración de uso de venv y ejecución de ejercicios.| 5 |
-| **Ejercicios Python** | Realiza detalladamente explicaciones para resolver cada uno de los ejercicios los ejercicios. | 11 |
+| **Ejercicio a** | Explicación detallada paso a paso para implementar el ejercicio | 2 |
+| **Ejercicio b** | Explicación detallada paso a paso para implementar el ejercicio | 2 |
+| **Ejercicio c** | Explicación detallada paso a paso para implementar el ejercicio | 2 |
+| **Ejercicio d** | Explicación detallada paso a paso para implementar el ejercicio | 2 |
+| **Ejercicio e** | Explicación detallada paso a paso para implementar el ejercicio | 2 |
+| **Ejercicio f** | Explicación detallada paso a paso para implementar el ejercicio | 2 |
+| **Ejercicio g** | Explicación detallada paso a paso para implementar el ejercicio | 2 |
+| **Ejercicio h** | Explicación detallada paso a paso para implementar el ejercicio | 3 |
+| **Ejercicio i** | Explicación detallada paso a paso para implementar el ejercicio | 3 |
+| **Video** | Demostración de uso de venv y ejecución de los ejercicios h e i.| -0 |
 | **Prueba[^2]** | Se tomaron en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
 |  | **Total** | **20** |
 
