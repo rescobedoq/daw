@@ -9,7 +9,7 @@
 | | [lab03](https://github.com/rescobedoq/daw/tree/main/lab03) | JavaScript(Backend) |
 | | lab04 | Python |
 | Fase II | lab05 | Base de datos |
-| | lab06 | Django admin |
+| | [lab06](https://github.com/rescobedoq/daw/tree/main/lab06) | Django admin |
 | | lab07 | Django vistas |
 | | lab08 | Django RestFramework |
 | Fase III | lab09 | Framework Frontend |
