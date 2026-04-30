@@ -68,23 +68,23 @@
     - Usar los métodos de los objetos de la clase **Picture**
     - Dibujar las siguientes figuras (invoque a draw):
 
-            * (a) ![(a)](img/ejercicio_a.png)
+    (a) ![(a)](img/ejercicio_a.png)
 
-            * (b) ![(b)](img/ejercicio_b.png)
+    (b) ![(b)](img/ejercicio_b.png)
 
-            * (c) ![(c)](img/ejercicio_c.png)
+    (c) ![(c)](img/ejercicio_c.png)
 
-            * (d) ![(d)](img/ejercicio_d.png)
+    (d) ![(d)](img/ejercicio_d.png)
 
-            * (e) ![(e)](img/ejercicio_e.png)
+    (e) ![(e)](img/ejercicio_e.png)
 
-            * (f) ![(f)](img/ejercicio_f.png)
+    (f) ![(f)](img/ejercicio_f.png)
 
-            * (g) ![(g)](img/ejercicio_g.png)
+    (g) ![(g)](img/ejercicio_g.png)
 
-            * (h) ![(h)](img/ejercicio_h.png)
+    (h) ![(h)](img/ejercicio_h.png)
       
-            * (i) ![(h)](img/ejercicio_i.png)
+    (i) ![(h)](img/ejercicio_i.png)
     
 # Entregables
 - Informe de práctica en PDF (enviar en la tarea de Classroom). [DAW_lab04_python.pdf]
