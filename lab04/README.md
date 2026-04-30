@@ -82,9 +82,11 @@
 
     (g) ![(g)](img/ejercicio_g.png)
 
-    (h) ![(h)](img/ejercicio_h.png)
+    (h) Movimientos básicos de la Apertura Italiana: 1.e4 e5 2.Cf3 Cc6 3.Ac4. Con 3.Ac4, las blancas desarrollan su alfil para presionar el peón de f7 y controlar el centro, creando posibles amenazas de ataque en el flanco de rey.
+    ![(h)](img/ejercicio_h.png)
       
-    (i) ![(h)](img/ejercicio_i.png)
+    (i) Movimientos básicos de la apertura escocesa: 1.e4 e5 2.Cf3 Cc6 3.d4. Con 3.d4, las blancas buscan abrir el centro y desafiar el control de las negras. Este movimiento permite un juego rápido y directo.
+    ![(i)](img/ejercicio_i.png)
     
 # Entregables
 - Informe de práctica en PDF (enviar en la tarea de Classroom). [DAW_lab04_python.pdf]
