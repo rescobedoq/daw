@@ -16,4 +16,4 @@
 | | lab10 | Comunicación Frontend - Backend |
 | | lab11 | JWT |
 | | lab12 | Avance Proyecto Final |
-| | [proyecto](https://github.com/rescobedoq/daw/tree/main/lab06) | Proyecto final |
+| | [proyecto](https://github.com/rescobedoq/daw/tree/main/proyecto) | Proyecto final |
