@@ -24,26 +24,27 @@
 
 # Tecnología utilizada
 
-| Fase | Laboratorio |
+| Ítem | Tecnología |
 | :--- | :--- |
-| Desarrollo | GNU/Linux |
+| **Desarrollo** | GNU/Linux |
 | | Git |
 | | Github |
-| Vim |
-| Frontend | HTML5 |
+| | Vim |
+| **Frontend** | HTML5 |
 | | CSS3 |
 | | JavaScript |
 | | TypeScript |
-| Backend | Django |
+| | VueJS |
+| **Backend** | Django |
 | | Restframework |
 | | JWT |
-| BD | SQL |
+| **BD** | SQL |
 | | Supabase |
-| Despliqgue | Docker |
+| **Despliqgue** | Docker |
+| | Netlify |
 | | Vercel |
-| | Vercel |
-| | Vercel |
-| | Vercel |
+| | Render |
+| | Railway |
 
 
 # Modelo de Datos
@@ -76,3 +77,9 @@ proyecto/
 │   └── DAW_lab12_proyecto_informe_final.pdf
 └── README.md
 ```
+
+# Referencias
+- https://www.netlify.com/
+- https://vercel.com/
+- https://render.com/
+- https://railway.com/
