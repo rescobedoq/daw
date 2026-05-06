@@ -1,4 +1,4 @@
-# Laboratorio 06 : Base de datos
+# Laboratorio 05 : Base de datos
 | Autores | Rol | Porcentaje |
 | :--- | :--- | :---: |
 | Richart Escobedo | Elaboración del modelo lógico DER | 100% |
@@ -9,9 +9,8 @@
 
 | Entregables | URL |
 | :--- | :--- |
-| Repositorio | https://github.com/rescobedoq/daw.git |
-| Laboratorio | https://github.com/rescobedoq/daw/tree/main/lab05 |
-| Informe | https://github.com/rescobedoulasalle/daw/blob/main/lab05/DAW_lab05_bd.pdf |
+| Repositorio | https://github.com/rescobedoq/enrollments.git |
+| Informe | https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab05_bd.pdf |
 
 # Descripción de la práctica
 - Elaboración del modelo lógico DER.
