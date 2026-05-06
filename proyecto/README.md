@@ -79,6 +79,23 @@ proyecto/
 ```
 
 # Referencias
+- https://askubuntu.com/
+- https://git-scm.com/
+- https://github.com/
+- https://www.vim.org/
+- https://neovim.io/
+- https://html.spec.whatwg.org/multipage/
+- https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/
+- https://javascript.info/
+- https://www.typescriptlang.org/
+- https://vuejs.org/
+- https://www.djangoproject.com/
+- https://www.django-rest-framework.org/
+- https://www.django-rest-framework.org/api-guide/authentication/
+- https://www.geeksforgeeks.org/python/jwt-authentication-with-django-rest-framework/
+- https://jpadilla.github.io/django-rest-framework-jwt/
+- https://www.jwt.io/
+- https://supabase.com/
 - https://www.netlify.com/
 - https://vercel.com/
 - https://render.com/
