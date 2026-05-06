@@ -40,7 +40,7 @@
 | | JWT |
 | **BD** | SQL |
 | | Supabase |
-| **Despliqgue** | Docker |
+| **Despliegue** | Docker |
 | | Netlify |
 | | Vercel |
 | | Render |
@@ -96,6 +96,7 @@ proyecto/
 - https://jpadilla.github.io/django-rest-framework-jwt/
 - https://www.jwt.io/
 - https://supabase.com/
+- https://www.docker.com/
 - https://www.netlify.com/
 - https://vercel.com/
 - https://render.com/
