@@ -61,7 +61,6 @@ proyecto/
 │   ├── DAW_lab09_jwt.pdf
 │   ├── DAW_lab10_frontend.pdf
 │   ├── DAW_lab11_avance_proyecto.pdf
-│   ├── DAW_lab12_proyecto_informe_final.pdf
-│   └── .pdf
+│   └── DAW_lab12_proyecto_informe_final.pdf
 └── README.md
 ```
