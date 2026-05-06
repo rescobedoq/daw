@@ -23,16 +23,28 @@
 |lab12 |https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab12_proyecto_informe_final.pdf|
 
 # Tecnología utilizada
-- Git/GitHub.
-- Vim.
-- Docker.
-- Supabase.
-- Django/Restframework.
-- JWT.
-- VueJS.
-- Nginx.
-- Vercel.
-- Netlify.
+
+| Fase | Laboratorio |
+| :--- | :--- |
+| Desarrollo | GNU/Linux |
+| | Git |
+| | Github |
+| Vim |
+| Frontend | HTML5 |
+| | CSS3 |
+| | JavaScript |
+| | TypeScript |
+| Backend | Django |
+| | Restframework |
+| | JWT |
+| BD | SQL |
+| | Supabase |
+| Despliqgue | Docker |
+| | Vercel |
+| | Vercel |
+| | Vercel |
+| | Vercel |
+
 
 # Modelo de Datos
 ![image](enrollmentsv1.0.png)
