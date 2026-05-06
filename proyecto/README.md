@@ -12,7 +12,7 @@
 | Entregables | URL |
 | :--- | :--- |
 | Repositorio | https://github.com/rescobedoq/enrollments.git |
-| **Informes** | |
+| **Informes**[^1] | |
 |lab05 |https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab05_bd.pdf|
 |lab06 |https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab06_admin.pdf|
 |lab07 |https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab07_vistas.pdf|
@@ -22,7 +22,7 @@
 |lab11 |https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab11_avance_proyecto.pdf|
 |lab12 |https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab12_proyecto_informe_final.pdf|
 
-# Tecnología utilizada
+# Tecnología utilizada[^2]
 
 | Ítem | Tecnología |
 | :--- | :--- |
@@ -47,7 +47,7 @@
 | | Railway |
 
 
-# Modelo de Datos
+# Modelo de Datos[^3]
 ![image](enrollmentsv1.0.png)
 
 # Estructura del proyecto
@@ -101,3 +101,7 @@ proyecto/
 - https://vercel.com/
 - https://render.com/
 - https://railway.com/
+
+[^1]: Los informes deben estar en el repositorio del grupo en un subdirectorio llamado 'informes'.
+[^2]: Se puede cambiar tecnología para frontend: Angular, React y para backend: NodeJS, Spring.
+[^3]: La base de datos debe estar en la nomenclatura y estándares explicados en clase.
