@@ -1,15 +1,14 @@
 # Laboratorio 06 : Django Admin
 | Autores | Rol | Porcentaje |
 | :--- | :--- | :---: |
-| Richart Escobedo | Prueba de herramientas para evaluar accesibilidad | 100% |
+| Richart Escobedo | Creación de modelos | 100% |
 | Richart Escobedo | Elaboración del informe | 100% |
 | | **Total** | **100%** |
 
 | Entregables | URL |
 | :--- | :--- |
-| Repositorio | https://github.com/rescobedoq/daw.git |
-| Laboratorio | https://github.com/rescobedoq/daw/tree/main/lab06 |
-| Informe | https://github.com/rescobedoulasalle/daw/blob/main/lab06/DAW_lab06_django_admin.pdf |
+| Repositorio | https://github.com/rescobedoq/enrollments.git |
+| Informe | https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab06_admin.pdf |
 
 # Descripción de la práctica
 - Mostrar el modelo de datos resumido para su proyecto final. (Recomendación: 4-7 tablas)
