@@ -8,6 +8,7 @@
 | Entregables | URL |
 | :--- | :--- |
 | Repositorio | https://github.com/rescobedoq/enrollments.git |
+| Video | https://youtube.com/... |
 | Informe | https://github.com/rescobedoq/enrollments/blob/main/informes/DAW_lab06_admin.pdf |
 
 # Descripción de la práctica
