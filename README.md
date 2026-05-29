@@ -14,6 +14,6 @@
 | | [lab08](https://github.com/rescobedoq/daw/tree/main/lab08) | Django RestFramework (DRF) |
 | Fase III | lab09 | JSON Web Token |
 | | lab10 | Framework Frontend |
-| | lab11 | Comunicación Frontend - Backend |
+| | lab11 | Comunicación Frontend - Backend (No hay informe sólo se presenta avance)|
 | | lab12 | Avance Proyecto Final |
 | | [proyecto](https://github.com/rescobedoq/daw/tree/main/proyecto) | Proyecto final |
