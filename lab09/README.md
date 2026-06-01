@@ -1,10 +1,10 @@
 # Laboratorio 09 : JWT
 | Autores | Rol | Rama | Comits | Tareas | Porcentaje |
-| :--- | :--- | :---: |
+| :--- | :--- | :---: | :---: | :---: | :---: |
 | Richart Escobedo | Backend | rescobedoq | 40 | Instalación y configuracion de JWT | 100% |
 | Richart Escobedo | Frontedn | rescobedoq  | 20 | Pruebas con un cliente Rest (Postman) | 100% |
 | Richart Escobedo | FullStack | rescobedoq  | 10 | Elaboración del informe | 100% |
-| **Total**|  | | 70 |  | **100%** |
+| **Total**|  |  | 70 |  | **100%** |
 
 | Entregables | URL |
 | :--- | :--- |
