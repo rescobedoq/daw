@@ -12,7 +12,7 @@
 | | [lab06](https://github.com/rescobedoq/daw/tree/main/lab06) | Django admin |
 | | lab07/prac02 | Django vistas (Se realizará una practica en Teoría) |
 | | [lab08](https://github.com/rescobedoq/daw/tree/main/lab08) | Django RestFramework (DRF) |
-| Fase III | lab09 | JSON Web Token |
+| Fase III | [lab09](https://github.com/rescobedoq/daw/tree/main/lab09) | JSON Web Token |
 | | lab10 | Framework Frontend |
 | | lab11 | Comunicación Frontend - Backend (No hay informe sólo se presenta avance)|
 | | lab12 | Avance Proyecto Final |
