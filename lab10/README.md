@@ -1,6 +1,6 @@
 # Laboratorio 10 : Framework frontend
 | Autores | Rol | Rama | Comits | Tareas | Porcentaje |
-| :--- | :--- | :---: | :---: | :---: | :---: |
+| :--- | :--- | :---: | :---: | :--- | :---: |
 | Richart Escobedo | Backend | rescobedoq | 40 | Instalación y configuracion del framework | 100% |
 | Richart Escobedo | Frontedn | rescobedoq  | 20 | Programación de componente constancia | 100% |
 | Richart Escobedo | Frontedn | rescobedoq  | 15 | Desplieque en plataforma CDN | 100% |
@@ -53,3 +53,77 @@ Si el docente solicita un video, debe cargarse en Youtube o Drive y sólo debe e
 - https://www.geeksforgeeks.org/javascript/vuejs-component/
 - https://www.netlify.com/
 - https://certificates.dev/vuejs
+
+## Comunicación BackEnd-FrontEnd
+
+### Caso JSON para mostrar Constancia de matrícula
+- Método        : GET
+- URL Backend   : https://sisacad-enrollments-backend.vercel.app/restful/enrollment-certificate/?cui=20250100
+- URL FrontEnd  : https://sisacad-enrollments-frontend.netlify.app/constancia/20250100
+
+![frontend-constancia-matricula.png](django-project/frontend-constancia-matricula.png)
+
+- BODY respuesta:
+```json
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 4,
+            "student": {
+                "cui": 20250100,
+                "full_name": "PÉREZ LÓPEZ, JUAN",
+                "email": "jperez@gmail.com"
+            },
+            "workload": {
+                "id": 3,
+                "course": {
+                    "id": "c0d28e46-5d67-433d-8b65-14dc773d7865",
+                    "code": "2502116",
+                    "name": "ESTRUCTURA DE DATOS Y ALGORITMOS",
+                    "acronym": "EDA",
+                    "credits": "4.00",
+                    "year_display": "2do año",
+                    "semester_display": "III semestre"
+                },
+                "group": "A",
+                "laboratory": "lab01",
+                "teacher": {
+                    "full_name": "CORRALES DELGADO, CARLO",
+                    "email": null
+                }
+            },
+            "created": "2026-06-11T05:51:47.725798-05:00"
+        },
+        {
+            "id": 1,
+            "student": {
+                "cui": 20250100,
+                "full_name": "PÉREZ LÓPEZ, JUAN",
+                "email": "jperez@gmail.com"
+            },
+            "workload": {
+                "id": 1,
+                "course": {
+                    "id": "88430c3a-114e-4d8e-939d-c4c6c1dcc072",
+                    "code": "2502117",
+                    "name": "DESARROLLO DE APLICACIONES WEB",
+                    "acronym": "DAW",
+                    "credits": "4.00",
+                    "year_display": "2do año",
+                    "semester_display": "III semestre"
+                },
+                "group": "A",
+                "laboratory": "lab01",
+                "teacher": {
+                    "full_name": "ESCOBEDO QUISPE, RICHART",
+                    "email": null
+                }
+            },
+            "created": "2026-06-08T12:55:32.119878-05:00"
+        }
+    ]
+}
+```
