@@ -61,7 +61,7 @@ Si el docente solicita un video, debe cargarse en Youtube o Drive y sólo debe e
 - URL Backend   : https://sisacad-enrollments-backend.vercel.app/restful/enrollment-certificate/?cui=20250100
 - URL FrontEnd  : https://sisacad-enrollments-frontend.netlify.app/constancia/20250100
 
-![frontend-constancia-matricula.png](django-project/frontend-constancia-matricula.png)
+![frontend-constancia-matricula.png](frontend-constancia-matricula.png)
 
 - BODY respuesta:
 ```json
