@@ -78,6 +78,18 @@ proyecto/
 └── README.md
 ```
 
+## Rúbrica de calificación[^1]
+| ítem | Descripción | Puntaje |
+| :--- | :--- | :---: |
+| **Repositorio Github** | La clonación del repositorio tiene todas las recomendaciones y evidencias: src, estándares, README.md, breves descripciones. | 3 |
+| **Informe final** | Se ha elaborado un consolidado de todas las funcionalidades de la aplicación web. Separadas por categorías: backend, frontend, etc. (Estilo el libro). | 5 |
+| **Videotutoriales** | Se pone a disposición un playlist con los videotutoriales para todos los usuarios finales: login, crud, vistas especiales, reportes, seguridad, etc. | 4 |
+| **Exposición** | Expone las funcionalidades más relevantes. Qué realmente aportan al usuario final: toma de desiciones, multi-procesamiento, recordatorio, búsqueda, etc. | 4 |
+| **Template-Backend** | El Backend muestra una bienvenida con el tema del Frontend, luego cada enlace redirecciona al FrontEnd. | 2 |
+| **Poster** | El grupo crea un Poster en PDF tamaño A2 tipo infografia donde resume el trabajo realizado: universidad, carrera, curso, semestre, profesor, estudiantes. | 2 |
+| **Prueba[^2]** | Se tomaron en cuenta todas las consideraciones y recomendaciones, lo que evidencia un trabajo en equipo. | -0 |
+|  | **Total** | **20** |
+
 # Referencias
 - https://askubuntu.com/
 - https://git-scm.com/
